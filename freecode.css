@@ -1,141 +1,130 @@
 body {
-    background-color: #262626;
-    font-family: helvetica;
-  }
-  div.header-img {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/61u8bZC6DYL._SY355_.jpg);
+    font-style: oblique;
+}
+.header-img {
     width: 100%;
-    background-color: #1a1a1a;
-    overflow: hidden;
+    margin: auto;
+    text-align: left;
+
+}
+#header-img {
     position: fixed;
-  }
-  #header-img {
-    width: 350px;
-    filter: invert(100%);
+    width: 150px;
     margin: auto;
-    display: block;
-  }
-  div.nav-bar {
-    overflow: hidden;
-    position: fixed;
-    background-color: #1a1a1a;
-    width: 100%;
-    top: 47px;
-  }
-  .nav-link {
+    display: flexbox;
+}
+#navbar {
+    background-color:black;
     color: white;
-    text-decoration: none;
+    padding: 25px;
+    font-size: 55px;
+    text-align: right;
+    font-style: initial;
+}
+
+#information {
+    width: 2200px;
+    margin: auto;
+    background-image: url(https://unblast.com/wp-content/uploads/2018/10/distressed-texture-1.jpg);
+}
+h1 {
+    color:black ;
     text-align: center;
-    font-size: 18px;
-    padding: 14px 50px;
-    float: left;
-    transition: background 0.5s ease;
-  }
-  .nav-link:hover {
-    background-color: #008fb3;
-  }
-  .title {
-    margin-top: 150px;
-    color: #008fb3;
+    padding: 25px;
+    font-size: 95px;
+}
+.songer {
+    text-align: center;}
+#songer {
+    border-color: black;
+    border-radius: 25%;
+    border-width: 15px;
+    border-style: double;
+}
+#info {
     text-align: center;
-  }
-  #email {
-    display: block;
+    font-size: 55px;
+}
+#songs {
+    text-align: center;
+}
+.songs {
+    width: 2200px;
     margin: auto;
-    width: 180px;
-    padding: 8px;
-    border-radius: 50px;
-    border: none;
-    background-color: #008f13;
-    transition: width 0.5s ease, background 0.5s ease;
-    font-size: 15px;
-  }
-  #email::placeholder {
-    color: white;
-    opacity: 80%;
-  }
-  #email:hover {
-    background-color: #008fb3;
-    width: 300px;
-  }
-  #submit {
-    display: block;
+    background-image: url(https://unblast.com/wp-content/uploads/2018/10/distressed-texture-1.jpg);
+    padding-bottom: 20px;
+}
+.concert {
+    text-align: center;
+    font-size: 100px;
+    color: red;
+    border-style: ridge;
+    border-color: black;
     margin: auto;
-    padding: 8px;
-    border: none;
-    border-radius: 50px;
-    width: 80px;
-    background-color: #008f13;
-    margin-top: 20px;
-    color: white;
-    font-size: 15px;
-    transition: background 0.5s ease;
-  }
-  #submit:hover {
-    background-color: #008fb3;
-  }
-  .text {
-    width: 700px;
-    margin: auto;
-    color: #008fb3;
-    margin-top: 100px;
-    transition: text-shadow 0.5s ease;
-  }
-  .text:hover {
-    text-shadow: 0px 0px 10px;
-  }
-  #video {
-    margin: auto;
-    display: block;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    background-color: #008fb3;
-    padding: 5px;
-  }
-  div.flex-container {
+    width: 2200px;
+    font-style: oblique;
+    background-image: url(https://unblast.com/wp-content/uploads/2018/10/distressed-texture-1.jpg);
+}
+
+
+.tickets {
+    background-image: url(https://unblast.com/wp-content/uploads/2018/10/distressed-texture-1.jpg);
+    width: 2200px;
     display: flex;
     justify-content: center;
     text-align: center;
-  }
-  div.products {
-    background-color: white;
+    margin: auto;
+}
+.price {
+    background-color: rosybrown;
     margin: 20px;
-    transition: box-shadow 0.3s ease;
-  }
-  .products:hover {
-    box-shadow: 0px 0px 10px #008fb3;
-  }
-  div.product-title {
+    border-style: double;
+    border-color: black;
+}
+
+.ticket {
     padding: 10px;
-    background-color: #008fb3;
+    background-color: thistle;
     color: white;
     text-align: center;
-  }
-  div.product-description {
-    color: #008fb3;
-  }
-  #product-submit {
-    background-color: #008f13;
+    border-color: black;
+    border-style: double;
+}
+.place {
+    font-size: 25px;
+    color: black;
+}
+#buy-ticket {
+    background-color: black;
     border: none;
     width: 100%;
     color: white;
     text-decoration: none;
     font-size: 20px;
     padding: 15px;
-    transition: background 0.5s ease;
+}
+#buy {
+    background-image: url(https://unblast.com/wp-content/uploads/2018/10/distressed-texture-1.jpg);
+    width: 2200px;
+    margin: auto;
+    border-style: double;
+    color: white;
+    font-size: 45px;
+}   
+#email {
+    display: table;
+    margin: auto;
+    width: 600px;
+    padding: 50px;
+    border-style: dotted;
+    border-radius: 25%;
+    border-width: 25px;
+    background-color: ghostwhite;
+    font-size: 35px;
   }
-  #product-submit:hover {
-    background-color: #008fb3;
+  h2 {
+color: black;
+font-size: 45px;
+text-align: center;
   }
-  @media screen and (max-width: 600px) {
-    .flex-container {
-      flex-direction: column;
-    }
-    .nav-link {
-      width: 100%;
-      margin: auto;
-    }
-    .text {
-      width: 400px;
-    }
-  }
-  
